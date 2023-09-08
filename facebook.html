@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>facebook clone</title>
+  <link rel="icon"
+    href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1200px-Facebook_Logo_%282019%29.png" />
+
+  <link rel="stylesheet" href="facebook.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="js/date.module.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <img class="bg-img"
+      src="https://scontent.fbkk10-1.fna.fbcdn.net/v/t39.30808-6/240114268_1123705474825697_6683629472025131896_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=52f669&_nc_eui2=AeGmEGuPbJd2C4Vh1sS2C3NTPVMzEwo8PZk9UzMTCjw9mQXug3F1yWBRdg_biqm8M498EBRNH8tKw9_qAv6g0_JC&_nc_ohc=WslDvrzRnl0AX84i4Ep&_nc_ht=scontent.fbkk10-1.fna&oh=00_AfAhOKYoMdiFSThTufst4mIhJDc-IiNezrLJLluy6h6XOg&oe=64FDE4F3"
+      alt="" />
+  </div>
+
+  <div class="container profile-container">
+    <div class="profile-left">
+      <div class="profile-img" style="position: relative;">
+        <img
+          src="https://scontent.fbkk10-1.fna.fbcdn.net/v/t39.30808-6/361591607_1571635423366031_2657729288458777733_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a2f6c7&_nc_eui2=AeHh6GmMQS8SkkocHXwLd3I0RQJJx6FgG6ZFAknHoWAbphlTbtQ-4aAdCabtmqxcXfi95JEwYhI5t4xcqMNkG6eA&_nc_ohc=qfPyqM2XBugAX8q63gb&_nc_ht=scontent.fbkk10-1.fna&oh=00_AfAX67dszQDX7rjHFHcuFdwi6tmjEz7FCJjm-kw5FaYWIQ&oe=64FDAD54"
+          alt="" />
+        <i class="fa-solid fa-camera"></i>
+      </div>
+
+      <div class="profile-name">
+        <h1> กิ๊ก ปัณวรรศ</h1>
+        <p> ผู้ติดตาม 5.1 พัน คน • กำลังติดตาม 4.9 พัน คน </p>
+        <div>
+          <img src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/937.jpg"
+            alt="" />
+          <img src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/146.jpg"
+            alt="" />
+          <img src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/567.jpg"
+            alt="" />
+          <img src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/237.jpg"
+            alt="" />
+          <img src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/867.jpg"
+            alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="profile-right">
+      <div>
+        <button class="active"><i class="fa-solid fa-pen"></i> แก้ไข</button>
+        <button><i class="fa-solid fa-wand-magic-sparkles"></i> เครื่องมือ</button>
+        <button><i class="fa-solid fa-plus"></i> เพิ่มลงในสตอรี่</button>
+      </div>
+
+      <div>
+        <button><i class="fa-solid fa-chevron-down"></i></button>
+      </div>
+    </div>
+
+
+  </div>
+  <!--tap menu-->
+  <div class="container tab-menu-container">
+    <div class="menu-left">
+      <button class="active">โพสต์</button>
+      <button>เกี่ยวกับ</button>
+      <button>Reels</button>
+      <button>รูปภาพ</button>
+      <button>วิดิโอ</button>
+      <button>กลุ่ม</button>
+      <button>เพิ่มเติม<i class="fa-solid fa-caret-down"></i></button>
+
+    </div>
+
+    <div class="menu-right">
+      <button><i class="fa-solid fa-ellipsis"></i></button>
+    </div>
+  </div>
+
+  <div class="content-container">
+    <div class="content">
+      <div class="content-left">
+        <div class="bio">
+          <h2>แนะนำตัว</h2>
+          <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio non, illo facere tempore qui corrupti,
+            culpa velit nulla perspiciatis laborum in commodi ab debitis alias blanditiis. Laboriosam dicta voluptates
+            fugiat.</span>
+          <button>แก็ไขคำอธิบายตัวเอง</button>
+          <span><i class="fa-solid fa-user"></i> โปรไฟล์ · ครีเอเตอร์ดิจิทัล</span>
+          <span><i class="fa-brands fa-instagram"></i> kikxpsn_19 </span>
+
+        </div>
+
+      </div>
+
+      <div class="content-right">
+        <div class="post-form">
+          <div>
+            <img
+              src="https://scontent.fbkk10-1.fna.fbcdn.net/v/t39.30808-6/361591607_1571635423366031_2657729288458777733_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a2f6c7&_nc_eui2=AeHh6GmMQS8SkkocHXwLd3I0RQJJx6FgG6ZFAknHoWAbphlTbtQ-4aAdCabtmqxcXfi95JEwYhI5t4xcqMNkG6eA&_nc_ohc=qfPyqM2XBugAX8q63gb&_nc_ht=scontent.fbkk10-1.fna&oh=00_AfAX67dszQDX7rjHFHcuFdwi6tmjEz7FCJjm-kw5FaYWIQ&oe=64FDAD54"
+              alt="">
+            <input type="text" placeholder="คุณกำลังคิดอะไรอยู่">
+          </div>
+          <hr>
+          <div class="tab-button">
+            <button><i class="coler-crimson fa-solid fa-video"></i> วิดิโอถ่ายทอดสด</button>
+            <button><i class="coler-forestgreen fa-solid fa-images"></i> รูปภาพ/วิดิโอ</button>
+            <button><i class="coler-deepink fa-solid fa-film"></i> คลิป Reels</button>
+          </div>
+        </div>
+
+        <div class="post">
+          <div class="post-header">
+            <div class="post-left">
+              <img src="https://scontent.fbkk10-1.fna.fbcdn.net/v/t39.30808-6/361591607_1571635423366031_2657729288458777733_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a2f6c7&_nc_eui2=AeHh6GmMQS8SkkocHXwLd3I0RQJJx6FgG6ZFAknHoWAbphlTbtQ-4aAdCabtmqxcXfi95JEwYhI5t4xcqMNkG6eA&_nc_ohc=qfPyqM2XBugAX8q63gb&_nc_ht=scontent.fbkk10-1.fna&oh=00_AfAX67dszQDX7rjHFHcuFdwi6tmjEz7FCJjm-kw5FaYWIQ&oe=64FDAD54" alt="">
+              <div class="part-name">
+                <h4> กิ๊ก ปัณวรรศ </h4>
+                <span>6 สิงหาคม เวลา 13:27 น.</span>
+              </div>
+            </div>
+            <div class="header-right"><button><i class="fa-solid fa-ellipsis"></i></button></div>
+          </div>
+          <div class="post-caption">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus incidunt cumque aut fugit omnis
+              repellat, doloremque officia non, quod quibusdam perspiciatis ipsum, aliquam voluptates odio soluta.
+              Inventore magni voluptatibus qui!</p>
+          </div>
+          <div class="post-tab-menu">
+            <button>ถูกใจ</button>
+            <button>แสดงความคิดเห็น</button>
+            <button>แชร์</button>
+          </div>
+          <div class="post-input-comment"><img src="" alt="">
+            <div class="input-container">
+              <input type="text"  placeholder="เขียนความคิดเห็น...">
+              <button><i class="fa-brands fa-twitter"></i></button>
+              <button><i class="fa-solid fa-star"></i></button>
+              <button><i class="fa-solid fa-poo"></i></button>
+              <button><i class="fa-regular fa-heart"></i></button>
+              <button><i class="fa-brands fa-discord"></i></button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+  </div>
+  </div>
+  </div>
+  <script>
+    const input = document.getElementById("post-input");
+    const postBody = document.getElementById("post-body");
+    const posts = [];
+
+    input.addEventListener("keypress", function (event) {
+      if (event.key === "Enter") submitForm();
+    });
+
+    function submitForm() {
+      if (input.value) {
+        posts.unshift({ message: input.value, date: formattedDate() });
+        input.value = "";
+        renderPost();
+      }
+    }
+
+    function renderPost() {
+      var str = "";
+      posts.forEach(function ({ message, date }) {
+        str += ` 
+        <div class="post">
+          <!-- post header -->
+          <div class="post-header">
+            <div class="header-left">
+              <img
+                src="https://scontent-lhr8-1.xx.fbcdn.net/v/t39.30808-6/341534883_740804337523133_4684572932628061992_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=jSEy81UzQ_UAX8udFwP&_nc_ht=scontent-lhr8-1.xx&oh=00_AfCHeLaqph_gzQpu5lrhS41a_fBwGnKwffGWy5Z0WeGSAw&oe=64FA4792"
+                alt=""
+              />
+              <div class="part-name">
+                <h4> กิ๊ก ปัณวรรศ </h4>
+                <span>${date}</span>
+              </div>
+            </div>
+            <div class="header-right">
+              <button><i class="fa-solid fa-ellipsis"></i></button>
+            </div>
+          </div>
+
+          <!-- post caption -->
+          <div class="post-caption">
+            <p>
+              ${message}
+            </p>
+          </div>
+
+          <!-- post tab menu -->
+          <div class="post-tab-menu">
+            <button><i class="fa-regular fa-thumbs-up"></i> ถูกใจ</button>
+            <button>
+              <i class="fa-regular fa-message"></i> แสดงความคิดเห็น
+            </button>
+            <button><i class="fa-solid fa-share"></i> แชร์</button>
+          </div>
+
+          <!-- post comment -->
+          <div class="post-input-comment">
+            <img
+              src="https://scontent-lhr8-1.xx.fbcdn.net/v/t39.30808-6/341534883_740804337523133_4684572932628061992_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=jSEy81UzQ_UAX8udFwP&_nc_ht=scontent-lhr8-1.xx&oh=00_AfCHeLaqph_gzQpu5lrhS41a_fBwGnKwffGWy5Z0WeGSAw&oe=64FA4792"
+              alt=""
+            />
+            <div class="input-container">
+              <input type="text" placeholder="เขียนความคิดเห็น..." />
+              <button><i class="fa-solid fa-magnifying-glass"></i></button>
+              <button><i class="fa-brands fa-twitter"></i></button>
+              <button><i class="fa-solid fa-star"></i></button>
+              <button><i class="fa-solid fa-wand-magic-sparkles"></i></button>
+              <button><i class="fa-regular fa-image"></i></button>
+            </div>
+          </div>
+        </div>
+        `;
+      });
+
+      postBody.innerHTML = str;
+    }
+  </script>
+</body>
+
+</html>

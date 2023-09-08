@@ -1,0 +1,15 @@
+body{
+    background-color:blueviolet;
+    background-image: url("https://storage.googleapis.com/fastwork-static/7fdc8682-e5cf-4eb5-bd88-97b4ebec2b95.jpg") ;
+    /* color: fuchsia; */
+}
+h1{
+    color: fuchsia;
+}
+p {
+    color: white;
+}
+
+.coler-rgb{
+    color: rgb(88, 27, 78);
+}
